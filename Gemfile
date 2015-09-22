@@ -19,6 +19,8 @@ group :test do
   gem 'capybara', '2.2.0'
   gem 'terminal-notifier-guard'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 gem 'momentjs-rails', '>= 2.9.0'
